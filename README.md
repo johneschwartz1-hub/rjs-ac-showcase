@@ -28,6 +28,10 @@ The approval step gives the operator a chance to correct the intake before a quo
 
 ## Validation and next steps
 
-A calculator smoke check captured the $321 example above. The project readiness report recorded passing frontend, mocked API, and offline database-harness tests, along with TypeScript checks and production builds. Peer acceptance testing was pending in the available test notes.
+A calculator smoke check captured the $321 example above.
+
+![Calculator smoke test showing labor, materials, markup, tax, and a $321 quote total](uat-calculator-smoke.png)
+
+ The project readiness report recorded passing frontend, mocked API, and offline database-harness tests, along with TypeScript checks and production builds. Peer acceptance testing was pending in the available test notes.
 
 Planned work includes PostgreSQL persistence, authenticated access to shared records, and AWS deployment.
