@@ -9,6 +9,8 @@ An HVAC service intake and quoting prototype. It turns an incomplete service req
 3. Generate and open the linked unpriced quote draft. Add two hours of labor at $100 per hour and $80 in materials with a 25% materials markup.
 4. Review the $300 subtotal and $21 sales tax at the example rate of 7%, for a $321 estimate. Save the quote and use print preview to review the itemized output.
 
+![Service Queue showing a fictional request and the information to confirm before approval](service-queue-demo.png)
+
 ## Architecture
 
 The TypeScript prototype uses a React/Vite frontend and an Express backend. The calculator and queue currently store their records in the browser, scoped to the browser profile and site origin.
